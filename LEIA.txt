@@ -1,0 +1,4 @@
+Olá, aqui tenho uma pagina usando javascript como adicionar elementos html dentro de um formulario, desativar a função do submit do button
+e  atraves do javascript pegar os valores de todos os campos do formulário quantos vc tiver adicionado e depois disso mandei salvar em
+um txt mais só servir como exemplo aqui pois a partir dali poderia ser salvo já no banco de dados e usando jquery foram enviar por ajax
+estas informações e a pagina fica estativa sem precisar sair dela e ir para outra e depois voltar pra poder salvar.
