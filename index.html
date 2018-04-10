@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+
+    <title>Salvar Banco dados sem Atualizar pagina</title>
+</head>
+<body>
+<div class="container">
+  	<form action="" role="form" id="form" name="form">
+	<legend>Formulário</legend>
+	<div class="form-group">
+		<label for="">NOME</label>
+		<input type="text" name="nome" class="form-control" id="nome" placeholder="seu nome">
+		<label for="">ENDEREÇO</label>
+		<input type="text" name="end" class="form-control" id="">
+		<label for="">NUMERO</label>
+		<input type="number" name="numero" class="form-control" id="">
+		<label for="">ATIVIDADES</label><br>
+		<div id="local">
+		<label id="empresa1">Empresa</label>		
+		<input type="text" name="atv1" class="form-control">
+		<label Id="funcao1">Função</label>		
+		<input type="text" name="func1" class="form-control">
+		</div>
+		<br>
+		<button class="btn btn-success" onclick="addatv(this.value)" value="1" id="+">+</button>
+		<button class="btn btn-danger" onclick="rematv(this.value)" value="1" id="-">-</button>
+		<!--Envia a quantidade de atividades para o salva.php pra saber quantos vou salvar-->
+		<input name="qt" id="qtd" value="1" type="hidden"/>
+	
+	</div>
+	<button type="submit" class="btn btn-primary" onclick="salvar()">SALVAR!</button>
+	</form>
+</div>
+   
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/disabledsubmit.js"></script>
+    <script src="js/save.js"></script>
+    <script src="js/addatv.js"></script>
+</body>
+</html>
